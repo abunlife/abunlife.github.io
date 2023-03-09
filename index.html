@@ -11,7 +11,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="img/favicon.png" />
   <meta name="HandheldFriendly" content="true" />
   <title>Life Centre</title>
-  <link rel="stylesheet" href="css/theme.min.css" />
+  <link rel="stylesheet" href="css/theme.css" />
 
   <style>
     /* inter-300 - latin */
@@ -61,6 +61,9 @@
       /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
     }
   </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Merriweather:wght@300&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body class="bg-black text-white mt-0" data-bs-spy="scroll" data-bs-target="#navScroll">
@@ -70,18 +73,23 @@
         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-building-fill" viewBox="0 0 16 16">
           <path d="M3 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3v-3.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V16h3a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H3Zm1 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5ZM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM4.5 8h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5Z"/>
         </svg>
-        <span class="ms-md-1 mt-1 fw-bolder me-md-5">Life Centre</span>
+        <span class="ms-md-1 mt-1 fw-bolder me-md-5 heading-font">Life Centre</span>
       </a>
 
-      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal heading-font">
         <li class="nav-item">
-          <a class="nav-link fs-5" href="index.html" aria-label="Homepage">
+          <a class="nav-link fs-5 " href="index.html" aria-label="Homepage">
             About
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link fs-5" href="content.html" aria-label="A sample content page">
             Facilities
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-5" href="system.html" aria-label="A system message page">
+            Location
           </a>
         </li>
         <li class="nav-item">
@@ -94,20 +102,19 @@
   </nav>
 
   <main>
-    <div class="w-100 overflow-hidden position-relative bg-black text-white" data-aos="fade">
+    <div class="w-100 overflow-hidden position-relative index-background text-white" data-aos="fade">
       <div class="position-absolute w-100 h-100 bg-black opacity-75 top-0 start-0"></div>
       <div class="container py-vh-4 position-relative mt-5 px-vw-5 text-center">
         <div class="row d-flex align-items-center justify-content-center py-vh-5">
           <div class="col-12 col-xl-10">
-            <span class="h5 text-secondary fw-lighter">A new state-of-the-art Limerick facility</span>
+            <span class="h5 text-secondary fw-lighter subtitle-font">A new state-of-the-art Limerick facility</span>
             <h1 class="display-huge mt-3 mb-3 lh-1">
               The Life Centre
             </h1>
           </div>
           <div class="col-12 col-xl-8">
-            <p class="lead text-secondary">
-              Welcome to. The Life Centre. An exciting facility in the heart of Limerick City. A building steeped in
-              history. With over 170 years of history.
+            <p class="lead text-secondary subtitle-font">
+              Welcome to The Life Centre. An exciting facility in the heart of Limerick City. A building with over 170 years of history.
             </p>
           </div>
           <div class="col-12 text-center">
@@ -122,7 +129,7 @@
         </div>
       </div>
     </div>
-
+    <br>
     <div class="w-100 position-relative bg-black text-white bg-cover d-flex align-items-center">
       <div class="container-fluid px-vw-5">
         <div class="position-absolute w-100 h-50 bg-dark bottom-0 start-0"></div>
@@ -163,12 +170,6 @@
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
               diam nonumy eirmod tempor invidunt ut labore et dolore magna
               aliquyam erat, sed diam voluptua.<br />
-              <a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-              </svg>
             </p>
             <h3 class="border-top border-secondary pt-5 mt-5">
               Development & Engineering
@@ -177,12 +178,6 @@
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
               diam nonumy eirmod tempor invidunt ut labore et dolore magna
               aliquyam erat, sed diam voluptua.<br />
-              <a href="#" class="link-fancy link-fancy-light me-2">Tell me more</a>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-              </svg>
             </p>
           </div>
         </div>
@@ -204,7 +199,6 @@
                     sed diam nonumy eirmod tempor invidunt ut labore et dolore
                     magna aliquyam erat.
                   </p>
-                  <a href="#" class="link-fancy link-fancy-light">Read more</a>
                 </div>
               </div>
             </div>
@@ -220,16 +214,15 @@
                     sed diam nonumy eirmod tempor invidunt ut labore et dolore
                     magna aliquyam erat.
                   </p>
-                  <a href="#" class="link-fancy link-fancy-light">Read more</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="p-5 pt-0 mt-5" data-aos="fade">
-              <span class="h5 text-secondary fw-lighter">What we don´t know</span>
+              <span class="h5 text-secondary fw-lighter">click on the pictures to open bigger</span>
               <h2 class="display-4">
-                There is a lot we don´t know. Here is a small sneak peek
+                Here our facilities
               </h2>
             </div>
             <div class="card bg-transparent mb-5 mt-5" data-aos="zoom-in-up">
@@ -243,7 +236,6 @@
                     sed diam nonumy eirmod tempor invidunt ut labore et dolore
                     magna aliquyam erat.
                   </p>
-                  <a href="#" class="link-fancy link-fancy-light">Read more</a>
                 </div>
               </div>
             </div>
@@ -259,7 +251,6 @@
                     sed diam nonumy eirmod tempor invidunt ut labore et dolore
                     magna aliquyam erat.
                   </p>
-                  <a href="#" class="link-fancy link-fancy-light">Read more</a>
                 </div>
               </div>
             </div>
@@ -602,8 +593,7 @@
       </div>
     </div>
     <div class="container text-center small py-vh-2 border-top border-dark">
-      Base from
-      <a href="https://templatedeck.com" class="link-fancy link-fancy-light" target="_blank">templatedeck.com</a>
+      The Life Centre, Henry Street, Limerick, Ireland. V94 525K | Tel +353-61-517444
     </div>
   </footer>
 

@@ -82,7 +82,8 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  /* font-family: var(--bs-body-font-family); */
+  font-family: 'Abel', sans-serif;;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -103,7 +104,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
-  line-height: 1.2; }
+  line-height: 1.2; 
+  font-family: 'Montserrat', sans-serif; }
 
 h1, .h1 {
   font-size: calc(1.425rem + 2.1vw); }
@@ -10038,3 +10040,29 @@ img {
   html:not(.no-js) [data-aos=flip-down].aos-animate {
     -webkit-transform: perspective(2500px) rotateX(0);
     transform: perspective(2500px) rotateX(0); } }
+
+    .heading-font {
+      font-family: 'Montserrat', sans-serif;
+    }
+    .subtitle-font {
+      font-family: 'Merriweather', serif;
+    }
+
+    .index-background {
+      background-image: url('https://ccireland.ie/wp-content/uploads/2020/09/The-Life-Centre-3-scaled.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      position: relative;
+    }
+
+    .index-background::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6); /* Change the opacity value (0.5) to make the overlay darker or lighter */
+    }
